@@ -1,1 +1,0 @@
-export { doThing } from './doThing';

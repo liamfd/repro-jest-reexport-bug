@@ -1,1 +1,0 @@
-export const doThing = jest.fn();
