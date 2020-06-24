@@ -1,4 +1,4 @@
-// This will break:
+// this will break (assuming other/index.js is also specified like this):
 import { doThing } from './shared';
 import { callDoThing } from './other';
 

@@ -1,7 +1,7 @@
-// this will break if broken.test.ts is also specified like this:
+// this will break (assuming broken.test.ts is also specified like this):
 import { doThing } from '../shared';
 
-// this will fix the bug
+// this will work
 // import { doThing } from '../shared/doThing'; // works
 
 console.log('in', __filename);
